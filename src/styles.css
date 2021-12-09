@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=PT+Sans&display=swap");
+
+.App {
+  font-family: "PT Sans", sans-serif;
+  text-align: center;
+}
+
+.heading {
+  font-family: "Gwendolyn", cursive;
+  font-size: 3rem;
+}
+button {
+  margin: 1rem;
+  background-color: #4338ca;
+  color: white;
+  border-radius: 10px;
+  font-family: "Gwendolyn", cursive;
+  font-size: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+hr {
+  border: 3px dotted #4338ca;
+  width: 50%;
+  border-bottom: none;
+}
+
+.book-name {
+  font-size: larger;
+}
+.book-rating {
+  font-size: small;
+}
+
+.list-item {
+  background-color: #9ca3af;
+  color: white;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 2rem;
+}
